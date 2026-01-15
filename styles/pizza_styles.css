@@ -49,3 +49,10 @@ label {
     display: block;
     padding-bottom: .2rem;
 }
+input[type="text"], textarea, select {
+    width: 100%;
+    border:1px solid darkred;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}

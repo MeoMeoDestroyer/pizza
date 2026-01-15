@@ -39,16 +39,29 @@
 
              <fieldset> 
              <legend> Select Toppings</legend>
-             <label></label>
-             <label></label>
+             <label for ="pepperoni"><input type="checkbox" id="pepperoni" value="pepperoni" name="toppings[]">Pepperoni</label>
+             <label for ="mushrooms"><input type="checkbox" id="mushrooms" value="mushrooms" name="toppings[]">Mushrooms</label>
+                <label for ="onions"><input type="checkbox" id="onions" value="onions" name="toppings[]">Onions</label>
+                <label for ="sausage"><input type="checkbox" id="sausage" value="sausage" name="toppings[]">Sausage</label>
+                <label for ="bacon"><input type="checkbox" id="bacon" value="bacon" name="toppings[]">Bacon</label>
+                <label for ="extra_cheese"><input type="checkbox" id="extra_cheese" value="extra_cheese" name="toppings[]">Extra Cheese</label>
         </fieldset>
                 <fieldset>
              <legend>Pizza Size</legend>
-             <label></label>
-             <label></label>
+             <select id ="size" name="size">
+                <option value="none">None</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+             </select>
         </fieldset>
+        <!-- Comment field -->
+         <label for="comment"> Special Instructions:</label>
+         <textarea id="comment" name="comment" row="5"></textarea>
+         <label for ="signup"><input type="checkbox" id="signup" checked value="signup" name="signup">Sign Up for Newsletter</label>
         <!-- Submit Button -->
         <button type="submit" id="order-button">Place Order</button>
+
         </form>
     </main>
 </body>
