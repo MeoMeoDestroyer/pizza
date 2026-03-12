@@ -16,13 +16,6 @@
             order.toppings.join(', ') :
             "No toppings" %>
     </p>
-    <p>Toppings: 
-        <% if (Array.isArray(order.toppings)) { %>
-            <%= order.toppings.join(', ') %>
-        <% } else { %>
-            No toppings
-        <% } %>
-    </p>     
         
     <p>Size: <%= order.size %></p>
     <p>Comment: <%= order.comment %></p>
